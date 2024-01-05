@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    min-width: 800px;
+    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap:1rem;
+    border-radius: 18px;
+    box-shadow: 10px 10px 50px rgb(235, 232, 255);
+}
+.container .container-1{
+    min-width: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 1rem;
+    border-radius: 18px;
+    gap: 3rem;
+}
+.container .container-1 .res{
+    color: rgb(203, 203, 203);
+    font-weight: bold;
+    padding-top: 1.5rem;
+    font-size: 1.3rem;
+}
+.container .container-1 .mark{
+    display: flex;
+    height:170px;
+    width: 170px;
+    border-radius: 50%;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    padding:1rem;
+}
+.container .container-1 .mark h1{
+    color:#fff;
+    font-weight: 2000;
+    font-size: 5rem;
+}
+.container .container-1 .mark p{
+    color:rgb(203, 203, 203);
+}
+.container .container-1 h2{
+    color:#fff;
+    font-size: 2rem;
+}
+.container .container-1 .content{
+    padding: 0 2rem 2rem 2rem;
+    color: rgb(203, 203, 203);
+    text-align: center;
+    font-size: 1.1rem;
+   
+}
+.container .container-2{
+    min-width: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-right: 3rem;
+    border-radius: 18px;
+    gap: 1rem;
+}
+.container .container-2 p{
+    font-size: 1.5rem;
+}
+.container .container-2 .details{
+    display: flex;
+  justify-content: space-between;
+    font-size: 1.1rem;
+}
+.container .container-2 img{
+    height:1.5rem;
+    width:1.5rem;
+}
+.container .container-2 .reaction{
+    margin-top: 1rem;
+    background-color: rgb(255, 246, 246);
+    color:hsl(0, 100%, 67%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.container .container-2 .memory{
+    background-color:#fffaf0;
+    color:hsl(39, 100%, 56%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.container .container-2 .verbal{
+    background-color: #e9fffa;
+    color:hsl(166, 100%, 37%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.container .container-2 .visual{
+    background-color: #f4f5ff;
+    color:hsl(234, 85%, 45%);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.container .container-2 ul .left{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+.container .container-2 ul .right{
+    color:#717171;
+}
+.container .container-2 ul b{
+    color:black;
+    text-align: right;
+}
+.container .container-2 button{
+    padding: 15px;
+    background-image:  linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 50px;
+    border-style: none;
+    font-size: 1.3rem;
+    color:rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 375px) {
+    .container .container-2 ul .right{
+        color:#717171;
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 815px) {
+    .container {
+        min-width: 100%;
+        margin-top: 0%;
+        max-height: 60rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+      }
+    .container .container-1{
+        min-width: 100%;
+        max-height: 30rem;
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgb(80, 49, 255), rgb(0, 14, 208));
+        padding: 1rem;
+        border-radius: 0px 0px 50px 50px;
+        gap: 1rem;
+    }
+    .container .container-2{
+        min-width: 100%;
+        max-height: 30rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        padding-right: 3rem;
+        gap: 1rem;
+        margin-bottom: 4rem;
+    }
+
+}
+
