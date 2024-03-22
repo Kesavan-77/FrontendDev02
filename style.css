@@ -138,7 +138,7 @@ ul{
 @media screen and (max-width: 815px) {
     .container {
         min-width: 100%;
-        margin-top: 13rem;
+        margin-top: 12.4rem;
         max-height: 60rem;
         display: flex;
         flex-wrap: wrap;
